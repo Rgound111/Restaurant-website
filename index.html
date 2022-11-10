@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp">
+        <img src="./image/logo.jpg" alt="#" class="logo v-nav-resp">
+        <div class="nav-items v-nav-resp">
+            <li><a class="x" href="#">Home</a></li>
+            <li><a class="x" href="./about.html">About</a></li>
+            <li><a class="x" href="./menu.html">Menu</a></li>
+            <li><a class="x" href="./contact.html">Contact</a></li>
+            <li><a class="x" href="./reservation.html">Reservation</a></li>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="myslides">
+            <div class="numbertext">1/3</div>
+            <img class="image" src="./image/about.jpg" alt="">
+            <div class="slidetext">caption text</div>
+        </div>
+        <div class="myslides">
+            <div class="numbertext">2/3</div>
+            <img class="image" src="./image/about1.jpg" alt="">
+            <div class="slidetext">caption two</div>
+        </div>
+        <div class="myslides">
+            <div class="numbertext">3/3</div>
+            <img class="image" src="./image/about3.jpg" alt="">
+            <div class="slidetext">caption three</div>
+        </div>
+
+        <a class="prev" onclick="imageslide(-1)">&#10094</a>
+        <a class="next" onclick="imageslide(1)">&#10095</a>
+    </div>
+
+    <div style="text-align: center">
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+    </div>
+
+
+    <div class="box">
+        <div class="container">
+            <img src="./image/pizza.jpg" alt="#" class="image">
+            <div class="overlay  overlaybottom">
+                <div class="text"><a href="./image/pizzamenu.jpg">Order Now</a></div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./image/burger.jpg" alt="#" class="image">
+            <div class="overlay  overlaybottom">
+                <div class="text"><a href="./image/burgermenu.jpg">Order Now</a></div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./image/fires1.jpg" alt="#" class="image">
+            <div class="overlay  overlaybottom">
+                <div class="text"><a href="./image/menu.jpg">Order Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="section-footer">
+        <div>
+            &copy www.Spice it up.com 2022-2023
+            <i class="fa-solid fa-pizza-slice"></i>
+            <i class="fa-solid fa-burger"></i>
+        </div>
+        <div class="footer-bottom">
+            <i class="fa-brands  fa-whatsapp"></i> 1200-3333-6666
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/2bfc12b785.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
