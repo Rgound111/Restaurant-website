@@ -317,7 +317,7 @@ About page css   ================  */
 .aboutheading {
     font-family: 'Kolker Brush', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
     letter-spacing: 4px;
 }
@@ -338,7 +338,7 @@ About page css   ================  */
     padding: 25px;
     font-family: 'Cormorant', serif;
     color: black;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 .right {
@@ -355,15 +355,16 @@ About page css   ================  */
 
 @media screen and (max-width:760px) {
     .p2-resp{
-        /* display: none; */
+        display: none;
     }
+   
     .left{
-        height: 35vh;
-        line-height: 1.4;
+        height: 40vh;
+        line-height: 1.3;
         padding: 10px;
     }
     .right img{
-        height:35vh;
+        height:40vh;
     }
     .abouttop{
         margin: 4px;
@@ -374,6 +375,26 @@ About page css   ================  */
     .p2-resp{
         display: none;
     }
+}
+@media screen and (max-width:1180px) {
+    .p2-resp{
+        display: none;
+    }
+    .left{
+        line-height: 2;
+    }
+}
+@media screen and (max-width:560px) {
+    .left{
+        line-height: 1.3;
+    }
+    
+}
+@media screen and (max-width:460px) {
+    .left{
+        line-height: 1.1;
+    }
+    
 }
 
 
@@ -438,7 +459,7 @@ contact page css   ================  */
 
 @media screen  and (max-width:768px){
     .btn{
-        width: 35%;
+        width: 40%;
     }
     .contact-form{
         width: 38%;
